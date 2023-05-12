@@ -13,7 +13,7 @@ function atualizarContador() {
 
   // Formata a exibição do contador
   const contador = document.getElementById("contador");
-  contador.textContent = `${dias.toString().padStart(2, '0')} dia ${horas.toString().padStart(2, '0')}h ${minutos.toString().padStart(2, '0')}min ${segundos.toString().padStart(2, '0')}s`;
+  contador.textContent = `${dias.toString().padStart(1, '0')} dia ${horas.toString().padStart(2, '0')}h ${minutos.toString().padStart(2, '0')}min ${segundos.toString().padStart(2, '0')}s`;
 
   // Atualiza o contador a cada segundo
   setTimeout(atualizarContador, 1000);
