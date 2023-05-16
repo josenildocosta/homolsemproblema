@@ -1,5 +1,5 @@
 // Defina a data de início do contador
-const dataInicio = new Date("2023-05-15T09:10:21.817Z");
+const dataInicio = new Date("2023-05-16T10:55:21.817Z");
 
 // Função para atualizar o contador de horas
 function atualizarContador() {
